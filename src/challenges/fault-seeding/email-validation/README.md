@@ -1,3 +1,5 @@
+# Email Validation
+
 ## Task
 
 Your task is to create a module which exposes a single function capable of validating email addresses.
@@ -25,7 +27,7 @@ function emailValidation(email: string): boolean
 
 The function should have the following characteristics:
 
-  * the input is always a String, it will never be `null` or `undefined`,
+  * the input is always a string, it will never be `null` nor `undefined`,
   * if the `email` argument is a valid email address, then the function should return `true`,
   * otherwise, `false` should be returned.
 

@@ -1,0 +1,5 @@
+{
+    "title": "Incorrect @ Check",
+    "description": "Will allow more than one @ character and will throw if there's none.",
+    "difficulty": "0"
+}

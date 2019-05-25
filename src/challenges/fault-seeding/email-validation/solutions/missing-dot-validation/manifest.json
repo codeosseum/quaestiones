@@ -1,0 +1,5 @@
+{
+    "title": "Missing Dot Validation",
+    "description": "Does not enforce the presence of the dot character.",
+    "difficulty": "0"
+}

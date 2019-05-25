@@ -1,19 +1,35 @@
+# Incorrect @ Check
+
+Will allow more than one `@` character and will throw if there's none.
+
+## Breakdown
+
+Let's start with a split using the `@` character as a delimiter.
+
+What should we expect:
+
+  * If there is a single `@` in the `email`, then this approach is okay.
+  * If there's no `@`, then `b` will be `undefined`.
+  * If there are two or more `@`s, then we will not check the parts after the second `@`.
+
+~~~~JavaScript
 function emailValidation(email) {
-    const atSplit = email.split('@');
+    const [a, b] = email.split('@');
+~~~~
 
-    if (atSplit.length != 2) {
-        return false;
-    }
+Here, if `b` is `undefined`, the function will throw.
 
-    const [a, b] = atSplit;
-
+~~~~js
     if (a.length == 0 || b.length == 0) {
         return false;
     }
+~~~~
 
-    const chars = 'zc4NPtDVBJI3a62uqXYjy8MSHTopCn9kAeO1bsFEKQWm75vxwrhfUdRig0GLZ';
-    const chars2 = 'zc4NPtDVBJI3a62uqXYjy8MSHT_opCn9kAeO1bsFEKQW-m75vxwrhfUdRig0GLZ';
-    const chars3 = 'zcNPtDVBJIauqXYjyMSHT_opCnkAeObsFEKQW-mvxwrhfUdRigGLZ';
+Everything else is okay.
+
+~~~~js
+    const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    const chars2 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-';
 
     const firstA = a[0];
 
@@ -52,7 +68,7 @@ function emailValidation(email) {
     }
 
     for (let i = 1; i < d.length; ++i) {
-        if (!chars3.includes(d[i])) {
+        if (!chars.includes(d[i])) {
             return false;
         }
     }
@@ -61,3 +77,4 @@ function emailValidation(email) {
 };
 
 module.exports = emailValidation;
+~~~~

@@ -1,3 +1,5 @@
 {
+    "title": "Missing Lowercase L",
+    "description": "Will not accept addresses including the lowercase L letter. Truly evil.",
     "difficulty": "0"
 }

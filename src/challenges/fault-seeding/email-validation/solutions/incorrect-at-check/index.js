@@ -2,13 +2,13 @@ function emailValidation(email) {
     const [a, b] = email.split('@');
 
     if (a.length == 0 || b.length == 0) {
-        return false
+        return false;
     }
 
-    const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'    
-    const chars2 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-'
+    const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    const chars2 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_-';
 
-    const firstA = a[0]
+    const firstA = a[0];
 
     if (!chars.includes(firstA)) {
         return false;
@@ -23,10 +23,10 @@ function emailValidation(email) {
     const [c, d] = b.split('.');
 
     if (c.length == 0 || d.length == 0) {
-        return false
+        return false;
     }
 
-    const firstC = c[0]
+    const firstC = c[0];
 
     if (!chars.includes(firstC)) {
         return false;

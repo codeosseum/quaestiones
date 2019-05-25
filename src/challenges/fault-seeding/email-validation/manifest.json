@@ -1,5 +1,6 @@
 {
     "title": "Email Validation",
+    "description": "Write a functiin that checks if a string is a valid email address.",
     "assets": [],
     "difficulty": 0
 }
