@@ -5,10 +5,10 @@ function arraySum(array) {
 
     let acc = 0;
     for (let i = 0; i < array.length - 1; ++i) {
-        acc += array[i]
+        acc += array[i];
     }
 
-    return acc
+    return acc;
 };
 
 module.exports = arraySum;
