@@ -17,15 +17,15 @@ module.exports = function clockConversion(twelveHour) {
 };
 
 function explodeTwelveHour(twelveHour) {
-    const [time, ampm] = twelveHour.split(' ')
-    const [hours, minutes, seconds] = time.split(':')
+    const [time, ampm] = twelveHour.split(' ');
+    const [hours, minutes, seconds] = time.split(':');
     
     return {
         hours,
         minutes,
         seconds,
         ampm
-    }
+    };
 };
 
 function isMidnight({ hours, ampm }) {

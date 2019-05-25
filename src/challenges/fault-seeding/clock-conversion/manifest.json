@@ -1,5 +1,6 @@
 {
     "title": "Clock Conversion",
+    "description": "Convert times from the 12-hour clock to the 24-hour clock.",
     "assets": [],
     "difficulty": 0
 }

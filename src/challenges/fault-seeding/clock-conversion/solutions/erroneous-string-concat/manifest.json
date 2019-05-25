@@ -1,3 +1,5 @@
 {
+    "title": "Erroneous String Concat",
+    "description": "Will erroneously perform a string concatenation when converting regular PM times.",
     "difficulty": "0"
 }
