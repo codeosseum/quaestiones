@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://codeosseum.com/schemas/fault-seeding/solution-manifest.schema.json",
+
+    "title": "Fault Seeding Solution Manifest",
+    "description": "File containing metadata for Fault Seeding solutions.",
+
+    "type": "object",
+
+    "properties": {
+        "difficulty": {
+            "description": "The difficulty of the solution. Must be greater than or equal to zero.",
+            "type": "integer"
+        }
+    }
+}
