@@ -13,6 +13,11 @@
             "type": "string"
         },
 
+        "description": {
+            "description": "A short description of the challenge.",
+            "type": "string"
+        },
+
         "assets": {
             "description": "URIs of additional assets (mostly images) accompanying the challenge.",
             "type": "array",

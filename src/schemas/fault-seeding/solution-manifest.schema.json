@@ -8,6 +8,16 @@
     "type": "object",
 
     "properties": {
+        "title": {
+            "description": "The title of the solution.",
+            "type": "string"
+        },
+
+        "description": {
+            "description": "A short description of the solution.",
+            "type": "string"
+        },
+
         "difficulty": {
             "description": "The difficulty of the solution. Must be greater than or equal to zero.",
             "type": "integer"
