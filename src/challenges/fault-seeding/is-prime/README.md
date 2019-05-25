@@ -1,11 +1,15 @@
+# Is Prime?
+
 ## Task
 
 Your task is to create a module which exposes a single function that checks if the specified integer is a prime number.
 
+## Signature
+
 The function should have the following signature:
 
 ~~~~JavaScript
-function isPrime(n: Number): boolean
+function isPrime(n: number): boolean
 ~~~~
 
 ## Behaviour
@@ -13,8 +17,8 @@ function isPrime(n: Number): boolean
 The function should have the following characteristics:
 
   * the input can be expected to be always a positive integer,
-  * if `n` is a prime, the function should return `true`,
-  * if `n` is not a prime, then function should return `false`.
+  * if `n` is a prime, then the function should return `true`,
+  * if `n` is not a prime, then the function should return `false`.
 
 ## Examples
 

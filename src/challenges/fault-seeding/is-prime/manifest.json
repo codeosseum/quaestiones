@@ -1,5 +1,6 @@
 {
     "title": "Is prime?",
+    "description": "Write a function that performs a primality test.",
     "assets": [],
     "difficulty": 0
 }
