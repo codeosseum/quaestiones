@@ -1,3 +1,5 @@
 {
+    "title": "Fail On Empty",
+    "description": "Instead of returning 0, will throw an error for empty arrays.",
     "difficulty": "0"
 }
