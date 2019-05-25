@@ -1,5 +1,6 @@
 {
     "title": "Array Sum",
+    "description": "Write a function that sums the elements of an array.",
     "assets": [],
     "difficulty": 0
 }
