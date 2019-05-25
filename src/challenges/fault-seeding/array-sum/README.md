@@ -1,11 +1,15 @@
+# Array Sum
+
 ## Task
 
 Your task is to create a module which exposes a single function capable of summing the elements of an array.
 
+## Signature
+
 The function should have the following signature:
 
 ~~~~JavaScript
-function arraySum(array: number[]): number
+function arraySum(array: any): number
 ~~~~
 
 ## Behaviour
@@ -17,7 +21,7 @@ The function should have the following characteristics:
 
 ## Notes
 
-The elements are guaranteed to be `Number`s.
+If the argument is an array, then the elements are guaranteed to be `Number`s.
 
 ## Examples
 
