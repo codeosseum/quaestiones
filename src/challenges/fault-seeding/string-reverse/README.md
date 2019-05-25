@@ -1,11 +1,15 @@
+# String Reverse
+
 ## Task
 
 Your task is to create a module which exposes a single function capable of reversing a string.
 
+## Signature
+
 The function should have the following signature:
 
 ~~~~JavaScript
-function stringReverse(str: string): string
+function stringReverse(str: any): string
 ~~~~
 
 ## Behaviour

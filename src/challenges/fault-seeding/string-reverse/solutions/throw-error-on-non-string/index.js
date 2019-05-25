@@ -1,8 +1,8 @@
 function stringReverse(str) {
-    const charArray = str.split('')
-    const reversed = charArray.reverse()
+    const charArray = str.split('');
+    const reversed = charArray.reverse();
 
-    return reversed.join('')
+    return reversed.join('');
 };
 
 module.exports = stringReverse;

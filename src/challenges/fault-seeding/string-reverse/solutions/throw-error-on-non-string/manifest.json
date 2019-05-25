@@ -1,3 +1,5 @@
 {
+    "title": "Throw Error on Non-String",
+    "description": "Throws an inappropriate error on non-string arguments.",
     "difficulty": "0"
 }

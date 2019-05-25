@@ -1,5 +1,6 @@
 {
     "title": "String Reverse",
+    "description": "Write a function that reverses a string.",
     "assets": [],
     "difficulty": 0
 }
