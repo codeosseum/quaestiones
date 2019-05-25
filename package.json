@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/codeosseum/quaestiones/issues"
   },
-  "homepage": "https://github.com/codeosseum/quaestiones#readme"
+  "homepage": "https://github.com/codeosseum/quaestiones#readme",
+  "devDependencies": {
+    "docco": "^0.8.0"
+  }
 }
