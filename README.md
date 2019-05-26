@@ -17,6 +17,19 @@ Quaestiones: Challenge database for Codeosseum.
 
 # Quaestiones
 
+Quaestiones is the official challenge database of the Codeosseum platform.
+
+## Extending Quaestiones
+
+Want to extend Quaestiones? Great!
+
+Head over to the following resources before creating a contribution:
+
+  * [Code of Conduct](CODE_OF_CONDUCT.md)
+  * [Contributing Guide](CONTRIBUTING.md)
+  * Game Mode Specific Guides
+    * [Fault Seeding Contributing Guide](docs/fault-seeding-guide.md)
+
 ## License
 
 Quaestiones is licensed under the [Apache License 2.0](LICENSE).
@@ -24,9 +37,7 @@ Quaestiones is licensed under the [Apache License 2.0](LICENSE).
 ## Acknowledgements
 
 <div align="center">
-  <a href="https://github.com/codeosseum">
-    <img alt="Codeosseum" src="docs/img/ministry.png" width="200">
-  </a>
+  <img alt="Ministry of Human Capacities" src="docs/img/ministry.png" width="200">
 </div>
 
 <div align="center">
