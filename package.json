@@ -12,5 +12,8 @@
     "url": "https://github.com/codeosseum/quaestiones/issues"
   },
   "homepage": "https://github.com/codeosseum/quaestiones#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "mocha": "^6.1.4"
+  }
 }
