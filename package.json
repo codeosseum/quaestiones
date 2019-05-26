@@ -6,14 +6,16 @@
     "type": "git",
     "url": "git+https://github.com/codeosseum/quaestiones.git"
   },
+  "scripts": {
+    "test": "mocha test/**/*.mocha.js"
+  },
   "author": "Attila Bagossy",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/codeosseum/quaestiones/issues"
   },
   "homepage": "https://github.com/codeosseum/quaestiones#readme",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^6.1.4"
   }
 }
