@@ -6,6 +6,7 @@
 
 <div align="center">
 
+[![Build Status](https://dev.azure.com/codeosseum/Quaestiones/_apis/build/status/codeosseum.quaestiones?branchName=master)](https://dev.azure.com/codeosseum/Quaestiones/_build/latest?definitionId=4&branchName=master)
 [![License](https://img.shields.io/github/license/codeosseum/quaestiones.svg?label=license)](LICENSE)
 
 </div>
